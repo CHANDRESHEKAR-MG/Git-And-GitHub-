@@ -77,3 +77,4 @@ git commit -m "Added login feature"
 Usually GitHub.
 git push
 
+Different Types Of Commands used In github are
