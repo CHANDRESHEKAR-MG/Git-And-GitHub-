@@ -78,3 +78,4 @@ Usually GitHub.
 git push
 
 Different Types Of Commands used In github are
+1) git init-initializing a git repo
