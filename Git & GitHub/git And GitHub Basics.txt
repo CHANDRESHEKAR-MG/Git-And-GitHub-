@@ -1,0 +1,79 @@
+1. What is Git?
+
+Git is a Version Control System (VCS).
+It is a tool that helps you track changes in your code.
+With Git, you can simply go back to an earlier version.
+
+Simple definition-
+Git is a distributed version control system used to track, manage, and collaborate on changes in source code
+
+2. What is GitHub?
+GitHub is a cloud-based platform where Git repositories can be stored and shared.
+
+1. Local Version Control System-
+Everything is stored on your own computer.
+
+2. Centralized Version Control System (CVCS)
+There is one central server.
+       Server
+      /   |   \
+     /    |    \
+   Dev1  Dev2  Dev3
+
+Examples:
+SVN
+CVS
+Perforce
+Developers connect to the central server.
+
+3. Distributed Version Control System (DVCS)
+Every developer has a complete copy of the repository and its history.
+             Remote Repository
+                   |
+        -----------------------
+        |          |          |
+      Dev A      Dev B      Dev C
+Git is a Distributed Version Control System.
+
+This is one of the most important points to remember for interviews.
+
+6. Git Repository Types
+You will commonly hear about two Git repository locations:
+Local Repository
+*) Repository on your computer.
+Laptop
+ └── MyProject
+      └── .git
+
+*) Remote Repository
+Repository stored on a remote service/server.
+Examples:
+GitHub
+GitLab
+Bitbucket
+
+Git work Flow-
+Working Directory
+       ↓
+Staging Area
+       ↓
+Local Repository
+       ↓
+Remote Repository
+
+
+1) Working Directory
+Your actual project files.
+index.html
+app.js
+style.css
+2) Staging Area
+Files selected for the next commit.
+git add .
+3) Local Repository
+Where Git stores your committed history.
+git commit -m "Added login feature"
+4) Remote Repository
+Usually GitHub.
+git push
+
