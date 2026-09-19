@@ -128,3 +128,13 @@ But don't think of clone as the same as pull.
 
 git clone = get the repository for the first time
 git pull = get new changes from an already-connected remote repository
+
+
+
+
+Branching in git
+
+Branch in git 
+git branch- to see the branch names
+git branch branchName - to create new branch
+git switch branchName - switching to branch
