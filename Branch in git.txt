@@ -3,3 +3,4 @@ git branch- to see the branch names
 git branch branchName - to create new branch
 git switch branchName - switching to branch
 git push origin -u - push the the branch to remote repository
+git switch -c branchname - crete brancha and switched to it
