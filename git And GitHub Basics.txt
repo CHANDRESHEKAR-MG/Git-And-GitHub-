@@ -100,3 +100,31 @@ URL	Address of the GitHub repository
 8) git puh -u origin main - origin is the name of your remote repository.
 origin is the name of your remote repository.
 -u means set the upstream/tracking relationship.
+9) git clone--git clone → GitHub → Local computer
+
+It copies an existing repository from GitHub to your local computer.
+
+GitHub (Remote)
+      ↓
+  git clone
+      ↓
+Local computer
+
+But don't think of clone as the same as pull.
+
+git clone = get the repository for the first time
+git pull = get new changes from an already-connected remote repository
+git clone → GitHub → Local computer
+
+It copies an existing repository from GitHub to your local computer.
+
+GitHub (Remote)
+      ↓
+  git clone
+      ↓
+Local computer
+
+But don't think of clone as the same as pull.
+
+git clone = get the repository for the first time
+git pull = get new changes from an already-connected remote repository
