@@ -78,4 +78,53 @@ Usually GitHub.
 git push
 
 Different Types Of Commands used In github are
-1) git init-initializing a git repo
+1) git init-initializing a git in project folder
+2) git status-git status tells you what has changed,
+ what is staged, and what Git is currently tracking.
+3) git add - git add is used to move your changes from the
+ Working Directory to the Staging Area.
+4) git commit -Git opens a text editor asking you to enter a commit message.
+5) git commit -m "commit message"- commit is commit the message -m message of the commit and "" inside write 
+description of the message----Creates commit directly with the given message
+
+6) git remote add origin url of repo-Adding exist remote Add a remote repository URL to my local Git repository and give that remote the name origin.
+origin is the name of your remote repository.
+main is the branch you want to push.
+Part	Meaning
+git	Use Git
+remote	Work with remote repositories
+add	Add a new remote
+origin	Name given to the remote
+URL	Address of the GitHub repository
+7) git push -Send your local commits to a remote repository such as GitHub.
+8) git puh -u origin main - origin is the name of your remote repository.
+origin is the name of your remote repository.
+-u means set the upstream/tracking relationship.
+9) git clone--git clone → GitHub → Local computer
+
+It copies an existing repository from GitHub to your local computer.
+
+GitHub (Remote)
+      ↓
+  git clone
+      ↓
+Local computer
+
+But don't think of clone as the same as pull.
+
+git clone = get the repository for the first time
+git pull = get new changes from an already-connected remote repository
+git clone → GitHub → Local computer
+
+It copies an existing repository from GitHub to your local computer.
+
+GitHub (Remote)
+      ↓
+  git clone
+      ↓
+Local computer
+
+But don't think of clone as the same as pull.
+
+git clone = get the repository for the first time
+git pull = get new changes from an already-connected remote repository
