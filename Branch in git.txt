@@ -1,0 +1,4 @@
+Branch in git 
+git branch- to see the branch names
+git branch branchName - to create new branch
+git switch branchName - switching to branch
