@@ -1,4 +1,6 @@
 Branch in git 
 git branch- to see the branch names
 git branch branchName - to create new branch
-git switch branchName - switching to branch
+git switch branchName - switching to branch 
+git push origin -u branch name - git push -u origin <branch-name> pushes the specified local branch to the remote repository and 
+sets the remote branch as its upstream/tracking branch.
