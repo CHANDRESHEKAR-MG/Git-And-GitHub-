@@ -2,5 +2,102 @@ Branch in git
 git branch- to see the branch names
 git branch branchName - to create new branch
 git switch branchName - switching to branch
-git push origin -u - push the the branch to remote repository
+git push origin -u branch name - push the the branch to remote repository
 git switch -c branchName-create and switch to branch
+git branch -m branch name - to change the branch name before pushing to GitHub
+
+
+If you already pushed Down-and-Up-Cating to GitHub
+
+Then do:
+
+git branch -m Down-and-Up-Casting
+git push -u origin Down-and-Up-Casting
+git push origin --delete Down-and-Up-Cating
+
+
+1. Check current branch
+git branch
+
+Example:
+
+* main
+2. Create a new branch
+
+You can do it in two ways:
+
+Method 1 — create only
+
+git branch feature-login
+
+Then switch:
+
+git switch feature-login
+
+Method 2 — create + switch at the same time (recommended)
+
+git switch -c feature-login
+
+This is equivalent to:
+
+git branch feature-login
+git switch feature-login
+3. Check that you switched
+git branch
+
+You should see:
+
+* feature-login
+  main
+4. Make your changes
+
+Then:
+
+git add .
+git commit -m "Add login feature"
+5. Push the new branch to GitHub
+git push -u origin feature-login
+
+After the first push, you can usually just use:
+
+git push
+
+because -u sets the upstream/tracking branch.
+
+Complete workflow
+git switch main
+git pull
+
+git switch -c feature-login
+
+# make changes
+
+git add .
+git commit -m "Add login feature"
+
+git push -u origin feature-login
+If you want to switch back to main
+git switch main
+See all branches
+
+Local:
+
+git branch
+
+Local + remote:
+
+git branch -a
+Delete a local branch
+git branch -d feature-login
+
+Delete the branch from GitHub:
+
+git push origin --delete feature-login
+
+Easy formula to remember:
+
+git switch -c branch-name     → create + switch
+git add .
+git commit -m "message"
+git push -u origin branch-name → first push
+git push                       → future pushes
