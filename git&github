@@ -1,0 +1,50 @@
+## What is Git?
+
+Git is a free, open-source version control system used to track changes in source code.
+
+- It helps developers track code changes.
+- It allows us to go back to previous versions of code.
+- It helps multiple developers work on the same project.
+- It works locally on our computer.
+
+## What is GitHub?
+
+GitHub is an online platform used to store and manage Git repositories.
+
+- It allows developers to upload and share their code.
+- It helps developers collaborate on projects.
+- It provides cloud storage for code.
+- It allows developers to contribute to open-source projects.
+
+## Difference between Git and GitHub
+
+| Git                         | GitHub                       |
+| --------------------------- | ---------------------------- |
+| Version control tool        | Online code hosting platform |
+| Works locally               | Works online                 |
+| Tracks code changes         | Stores Git repositories      |
+| Developed by Linus Torvalds | Owned by Microsoft           |
+
+## Common Git Commands
+
+| Command                   | Purpose                     |
+| ------------------------- | --------------------------- |
+| `git init`                | Initialize a Git repository |
+| `git add .`               | Stage all changes           |
+| `git commit -m "message"` | Save changes                |
+| `git status`              | Check repository status     |
+| `git push`                | Upload code to GitHub       |
+| `git pull`                | Download latest changes     |
+| `git clone`               | Copy a repository           |
+| `git log`                 | View commit history         |
+
+Simple example:
+
+Suppose you create a Java project.
+
+1. Use Git to track changes in your Java code.
+2. Commit your changes using Git.
+3. Push your project to GitHub.
+4. Now you can access your project online from anywhere.
+
+Remember: Git is a tool to track code changes, whereas GitHub is a platform to store and collaborate on Git projects.
