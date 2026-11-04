@@ -1,0 +1,14 @@
+Important cmds
+mportant Git commands
+Command	Purpose
+git switch main	Switch to main branch
+git switch -c feature	Create and switch to a new branch
+git branch	List branches
+git push origin main	Push changes to main
+git pull origin main	Get latest main branch changes
+
+Remember:
+- git switch main → Switch branch.
+- git add → Stage changes.
+- git commit → Save changes locally.
+- git push origin main → Upload changes to GitHub's main branch.
