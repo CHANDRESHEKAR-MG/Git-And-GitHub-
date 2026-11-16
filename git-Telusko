@@ -13,7 +13,7 @@ git commit -m "commit "commit message " -- through Staging area
 
 
 
-There are two concepts:
+There arde two concepts:
 1. Local Repository
 The repository on your computer.
 - main → Local main branch.
