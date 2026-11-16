@@ -11,6 +11,16 @@ git commit -m "commit "commit message " -- through Staging area
  To delete committed file from remote repository is not pushed till 
  git rm --cached Filename
 
+git clone -- to download the existing or others rpo into a lcal w=m/c or to the working directory
+
+git branch -M main -- to switch form master to main 
+
+git remote add origin Repo_URL  - to connect that folder with remote repo to store the code top maintain version 
+
+git push -u origin main -- initial or first push from local to remote use this only first time next push use simple git push
+
+
+
 
 
 There arde two concepts:
