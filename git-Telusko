@@ -8,6 +8,9 @@ git commit -m "commit "commit message " -- through Staging area
 
  git log - shows entire history
 
+ git log --graph -- it shows only main commits
+ 
+
  To delete committed file from remote repository is not pushed till 
  git rm --cached Filename
 
@@ -19,7 +22,7 @@ git remote add origin Repo_URL  - to connect that folder with remote repo to sto
 
 git push -u origin main -- initial or first push from local to remote use this only first time next push use simple git push
 
-
+git log 
 
 
 

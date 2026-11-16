@@ -7,6 +7,11 @@ git switch branch name -- switch to  branch if the vranch is exist
 
 git branch -d branch name -- it will delete branch if branch is exist
 
+to merge 2 separate branch
+
+
+git merge branch_name -- merge it with main branch so ensure that before merge the branch is switched to main branch
+
 
 
 
