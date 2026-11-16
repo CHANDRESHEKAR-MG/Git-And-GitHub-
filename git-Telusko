@@ -1,0 +1,40 @@
+git commit -a -m "commit message" --- direct comiit from working dir to remote rpo without going to the staging area
+
+git commit -m "commit "commit message " -- through Staging area
+
+ git diff - before adding to the working directory show changes happend in file like no of changes and data changes
+
+ git diff --staged -- if the file in stah=ging area to check difference this show same as what that git diff show but it show if the fileis in staging area
+
+ git log - shows entire history
+
+ To delete committed file from remote repository is not pushed till 
+ git rm --cached Filename
+
+
+
+There are two concepts:
+1. Local Repository
+The repository on your computer.
+- main → Local main branch.
+- master → Local master branch.
+2. Remote Repository
+The repository hosted on GitHub.
+- origin → Default name of the remote repository.
+- origin/main → Remote main branch.
+- origin/master → Remote master branch.
+Example
+Git name	Meaning
+main	Local main branch
+master	Local master branch
+origin	Remote repository
+origin/main	Remote main branch
+origin/master	Remote master branch
+
+
+| Master |                            Main |
+|---|---|
+| Older default branch name        |     Newer default branch name |
+| Historically used by Git        |      Adopted by GitHub as the default for new repositories in 2020 |
+| Same functionality              |        Same functionality |
+| No technical difference         |            No technical difference |
