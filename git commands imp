@@ -1,11 +1,26 @@
 Important cmds
 mportant Git commands
 Command	Purpose
-git switch main	Switch to main branch
-git switch -c feature	Create and switch to a new branch
-git branch	List branches
-git push origin main	Push changes to main
-git pull origin main	Get latest main branch changes
+git branch branch_name-- create branch
+
+git switch branch name -- switch to  branch if the vranch is exist
+
+git branch -d branch name -- it will delete branch if branch is exist
+
+
+
+
+git switch main	-- Switch to main branch
+
+git switch -c branch name --	Create and switch 
+
+git branch --	List branches
+
+git push origin branch_name -- to push files on to a branch not directly main
+
+git push origin main --	Push changes to main
+
+git pull origin main	-- Get latest main branch changes
 
 Remember:
 - git switch main → Switch branch.
